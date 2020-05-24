@@ -11,7 +11,7 @@ defmodule Crawly.API.Router do
   get "/spiders" do
     msg =
       case Crawly.Engine.running_spiders() do
-        %{} ->
+        [] ->
           "No spiders are currently running"
 
         spiders ->
