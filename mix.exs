@@ -67,7 +67,7 @@ defmodule Crawly.Mixfile do
       {:uuid, "~> 1.1"},
       # {:poison, "~> 4.0"},
       # {:new_gollum, "~> 0.3.0", override: true},
-      {:new_gollum, github: "vanessaklee/gollum", branch: "master", override: true},
+      {:gollum, github: "vanessaklee/gollum", branch: "master", override: true},
       {:plug_cowboy, "~> 2.0"},
       {:epipe, "~> 1.0"},
       {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
