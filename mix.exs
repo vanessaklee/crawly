@@ -63,9 +63,9 @@ defmodule Crawly.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.4", override: true},
+      # {:httpoison, "~> 1.4", override: true},
       {:uuid, "~> 1.1"},
-      {:poison, "~> 4.0"},
+      # {:poison, "~> 4.0"},
       # {:new_gollum, "~> 0.3.0", override: true},
       {:new_gollum, github: "vanessaklee/gollum", branch: "master", override: true},
       {:plug_cowboy, "~> 2.0"},
